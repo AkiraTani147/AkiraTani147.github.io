@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+/* 상단 헤더 */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* 메뉴 */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  position: relative;
+  margin-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 드롭다운 */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.dropdown-menu li {
+  margin: 0;
+  padding: 5px 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* 메인 */
+main {
+  max-width: 800px;
+  margin: 60px auto;
+}
+
+/* 포스트 카드 */
+.post {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+.post h3 {
+  margin-top: 0;
+}
