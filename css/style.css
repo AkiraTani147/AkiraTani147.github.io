@@ -76,3 +76,31 @@ main {
 .post h3 {
   margin-top: 0;
 }
+/* 링크 색 */
+a {
+  color: #6a5acd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 글 카드 */
+.post {
+  background: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  transition: transform 0.2s;
+}
+
+.post:hover {
+  transform: translateY(-4px);
+}
+
+/* 제목 */
+.post h3 {
+  margin-top: 0;
+}
